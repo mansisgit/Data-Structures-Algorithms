@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8b7ede18-ab4d-4ea1-861e-f22e16a3ef2e" name="Changes" comment="commiting in DSA repo" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +30,11 @@
     "onboarding.tips.debug.path": "C:/Users/mansi tukaram chate/IdeaProjects/DSA/src/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mansi tukaram chate\IdeaProjects\DSA" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +68,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768987466665</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commiting in DSA repo">
+      <option name="closed" value="true" />
+      <created>1768988583506</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768988583506</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
