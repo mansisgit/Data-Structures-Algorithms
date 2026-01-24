@@ -11,6 +11,15 @@ public class Demo {
         System.out.println(list.remove(Integer.valueOf(10))+"by value/object");
         System.out.println(Arrays.toString(list.toArray()));
 
+        //printing right angled triangle
+        for(int i=0;i<3;i++){
+            int j=i+1;
+            while (i+j-->0){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
     }
 
 }
