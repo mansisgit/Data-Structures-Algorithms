@@ -21,5 +21,9 @@ public class Demo {
         }
 
     }
+}
+sealed class Animal permits Tiger,Lion {
 
 }
+final class Tiger extends Animal{}
+final class Lion extends Animal {}
