@@ -1,6 +1,5 @@
 package Structures;
 
-
 //task1
 /*
 * read atext file and display its content
@@ -17,6 +16,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.*;
 import java.util.*;
+
 //task2
 /*
 * write a user input data inot a file
@@ -29,7 +29,8 @@ import java.util.*;
 public class Tasks {
     public static void main(String[] args) throws Exception {
        //read text file and display its content
-        BufferedReader br = new BufferedReader(new FileReader("employee.txt"));
+        String inputFile =  "employee.txt";
+        BufferedReader br = new BufferedReader(new FileReader("c:/dyp/" + inputFile));
         String line, word = "java";
         int lines = 0, words = 0, chars = 0;
         int sum =0,count=0;
@@ -37,9 +38,6 @@ public class Tasks {
 
         while ((line = br.readLine()) != null) {
             System.out.println(line);
-        }
-
-        while ((line = br.readLine()) != null) {
             lines++;
             chars += line.length();
             words += line.split("\\s+").length;
@@ -65,7 +63,7 @@ public class Tasks {
         System.out.println("Average: " + (sum / (double) count));
 
 
-        List<String> liness = Files.readAllLines(Paths.get("input.txt"));
+        List<String> liness = Files.readAllLines(Paths.get("c:/dyp/employee.txt"));
         Collections.reverse(liness);
 
         for (String line1 : liness) {
