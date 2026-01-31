@@ -15,9 +15,7 @@ public class Ques1String {
         int[] freq = new int[26];
         freq[0]=1;
         freq[1]=1;
-        for(int i=2;i<26;i+=3){
-            freq[i]
-        }
+        return 0;
    }
 
 }
