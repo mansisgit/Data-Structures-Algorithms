@@ -10,14 +10,37 @@ public class RowWiseSum {
         }
 //column wise multiplication
 
-        int i=0;
-        while(i<3) {
+        int ie=0;
+        while(ie<3) {
             int multiplication = 1;
             for (int j = 0; j < arr.length; j++) {
-                multiplication *= arr[j][i];
+                multiplication *= arr[j][ie];
             }
             System.out.println("columnwise multiplication is "+multiplication);
-            i++;
+            ie++;
+        }
+
+        //rotate 90 degrees
+        for(int i=0;i< arr.length;i++){
+             for(int j=0;j<arr[i].length;j++){
+                 if(i==0 && (j==1 || j==2)){
+                     int temp = arr[i][j];
+                     arr[i][j] = arr[j][i];
+                     arr[j][i] = temp;
+                 }
+                 if(i==1 && j==2){
+                     int temp = arr[i][j];
+                     arr[i][j] = arr[j][i];
+                     arr[j][i] = temp;
+                 }
+             }
+        }
+
+        for(int i=0;i< arr.length;i++){
+            for(int j=0;j<arr[i].length;j++){
+                System.out.print(arr[i][j]+" ");
+            }
+            System.out.println();
         }
 
     }
