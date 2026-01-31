@@ -43,5 +43,17 @@ public class RowWiseSum {
             System.out.println();
         }
 
+        //spiral spin
+        int row =0;
+        while(row<arr.length){
+            int col = arr[row].length;
+            if(row==0) {
+                for (int i = 0; i < arr[row].length; i++) {
+                    System.out.print(arr[row][i] + " ");
+                }
+            }
+
+            row++;
+        }
     }
 }
