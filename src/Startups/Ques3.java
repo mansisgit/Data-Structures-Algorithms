@@ -28,10 +28,8 @@ class Edge{
         return  u== edge.u && v==edge.v;
      }
 
-     public int hashCode(){
-        return Object.hash(u,v);
-     }
+    }
 
 
-}
+
 
