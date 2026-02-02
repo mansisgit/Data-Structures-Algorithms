@@ -20,6 +20,7 @@ public class Product {
         BigDecimal rounded = item.getRoundedPrice(2);
         System.out.println("original price:"+item.price);
         System.out.println("rounded price:" + rounded);
+        //945//
     }
 
 
